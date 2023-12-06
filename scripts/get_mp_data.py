@@ -20,7 +20,7 @@ def save_to_csv(data, filename):
 # Main script to query the API and save the data
 def main():
     all_data = []
-    for id in range(1, 3):  # IDs range from 1 to 460
+    for id in range(1, 461):  # IDs range from 1 to 460
         mp_data = get_mp_data(id)
         if mp_data:
             all_data.append(mp_data)
